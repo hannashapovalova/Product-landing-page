@@ -13,7 +13,29 @@ header {
     display: flex;
     position: fixed;
     top: 0;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 img {
-    width: 60vw;
+    width: 20vw;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar li a{
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+main {
+    margin-top: 100px;
 }
